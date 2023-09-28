@@ -1,0 +1,63 @@
+.box {text-align: center;
+    font-size: 24px;
+    padding: 10px;
+  width: 200px;
+  height: 200px;
+
+  margin: 25px;
+  box-shadow:-webkit-box-shadow: inset 5px -24px 30px -13px #CBCBCB;
+-moz-box-shadow: inset 5px -24px 30px -13px #CBCBCB;
+-o-box-shadow: inset 5px -24px 30px -13px #CBCBCB;
+box-shadow: inset 5px -24px 30px -13px #CBCBCB;
+}
+
+.lavagna {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(53, 50, 50);
+  width: 900px;
+  height: 700px;
+  border: solid 20px rgb(134, 108, 68);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(192, 192, 190);
+  width: 100%;
+  height: 1000px;
+}
+
+#post1,
+#post5 {
+  background-color: rgb(124, 196, 124);
+  transform: rotate(-10deg);
+}
+
+#post2,
+#post6 {
+  background-color:beige;
+  transform: rotate(10deg);
+}
+
+#post3,
+#post4 {
+  background-color: rgb(176, 176, 238);
+  transform: rotate(-5deg);
+}
+
+#post4{transform: rotate(10deg);}
+
+.box:hover{width: 250px;
+   height:250px;
+   box-shadow: -webkit-box-shadow: 25px 22px 19px -9px #ddd;
+-moz-box-shadow: 25px 22px 19px -9px #ddd;
+-o-box-shadow: 25px 22px 19px -9px #ddd;
+box-shadow: 25px 22px 19px -9px #ddd;
+
+   transition: width linear 2s, height 2s, box-shadow linear 2s};
